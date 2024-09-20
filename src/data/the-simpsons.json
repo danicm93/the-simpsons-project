@@ -1,0 +1,64 @@
+{
+  "characters": [
+    {
+      "id": "homer",
+      "name": "Homer Simpson",
+      "image": "homer.webp",
+      "relationships": ["marge", "bart", "lisa", "maggie"]
+    },
+    {
+      "id": "marge",
+      "name": "Marge Simpson",
+      "image": "marge.webp",
+      "relationships": ["homer", "bart", "lisa", "maggie"]
+    },
+    {
+      "id": "bart",
+      "name": "Bart Simpson",
+      "image": "bart.webp",
+      "relationships": ["homer", "marge", "lisa", "maggie", "milhouse"]
+    },
+    {
+      "id": "lisa",
+      "name": "Lisa Simpson",
+      "image": "lisa.webp",
+      "relationships": ["homer", "marge", "bart", "maggie"]
+    },
+    {
+      "id": "maggie",
+      "name": "Maggie Simpson",
+      "image": "maggie.webp",
+      "relationships": ["homer", "marge", "bart", "lisa"]
+    },
+    {
+      "id": "abraham-simpson",
+      "name": "Abraham Simpson",
+      "image": "abraham-simpson.webp",
+      "relationships": ["homer"]
+    },
+    {
+      "id": "nelson",
+      "name": "Nelson Muntz",
+      "image": "nelson.webp",
+      "relationships": ["bart", "milhouse",  "lisa"]
+    },
+    {
+      "id": "milhouse",
+      "name": "Milhouse Van Houten",
+      "image": "milhouse.webp",
+      "relationships": ["bart", "lisa"]
+    },
+    {
+      "id": "burns",
+      "name": "Sr. Burns",
+      "image": "burns.webp",
+      "relationships": ["smithers", "homer"]
+    },
+    {
+      "id": "smithers",
+      "name": "Waylon Smithers",
+      "image": "smithers.webp",
+      "relationships": ["burns"]
+    }
+  ]
+}
